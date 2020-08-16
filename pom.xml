@@ -24,13 +24,6 @@
         <junit.version>4.12</junit.version>
     </properties>
 
-    <licenses>
-        <license>
-            <name>The Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-        </license>
-    </licenses>
-
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -68,6 +61,22 @@
             <version>${junit.version}</version>
         </dependency>
     </dependencies>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>lalaluplus</name>
+            <email>phadyc@126.com</email>
+            <organization></organization>
+            <organizationUrl></organizationUrl>
+        </developer>
+    </developers>
 
     <scm>
         <connection>https://github.com/panhongan/spring-utils.git</connection>
